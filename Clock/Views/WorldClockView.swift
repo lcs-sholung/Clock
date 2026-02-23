@@ -10,7 +10,13 @@ import SwiftUI
 struct WorldClockView: View {
     var body: some View {
         NavigationStack {
-            Text("World Clock")
+            VStack{
+                ClockItem()
+                ClockItem()
+                ClockItem()
+                ClockItem()
+                ClockItem()
+            }
                 .navigationTitle("World Clock")
                 .toolbar {
                     
@@ -35,7 +41,21 @@ struct WorldClockView: View {
         }
     }
 }
-
+struct ClockItem: View {
+    var body: some View {
+        HStack{
+            VStack{
+                Text("Today +0HRS")
+                Text("Ottawa")
+                    .font(.system(.largeTitle))
+            }
+            Spacer()
+            Text("6:35")
+                .font(.system(size: 62))
+        
+        }
+    }
+}
 #Preview {
     LandingView()
 }
