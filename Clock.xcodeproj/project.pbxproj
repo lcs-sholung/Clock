@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8164D622F4F5D540053004F /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8164D612F4F5D540053004F /* CityView.swift */; };
 		D8A3CD3D2F4CE074004339BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A3CD392F4CE074004339BE /* Assets.xcassets */; };
 		D8A3CD3E2F4CE074004339BE /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A3CD3A2F4CE074004339BE /* ClockApp.swift */; };
 		D8A3CD3F2F4CE074004339BE /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A3CD3B2F4CE074004339BE /* LandingView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8164D612F4F5D540053004F /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		D8A3CD2B2F4CDFA3004339BE /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A3CD392F4CE074004339BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A3CD3A2F4CE074004339BE /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				D8A3CD3B2F4CE074004339BE /* LandingView.swift */,
 				D8A3CD412F4CE2F0004339BE /* WorldClockView.swift */,
+				D8164D612F4F5D540053004F /* CityView.swift */,
 				D8A3CD432F4CE30F004339BE /* AlarmsView.swift */,
 				D8A3CD452F4CE31E004339BE /* StopwatchView.swift */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A3CD3E2F4CE074004339BE /* ClockApp.swift in Sources */,
+				D8164D622F4F5D540053004F /* CityView.swift in Sources */,
 				D8A3CD422F4CE2F0004339BE /* WorldClockView.swift in Sources */,
 				D8A3CD442F4CE30F004339BE /* AlarmsView.swift in Sources */,
 				D8A3CD462F4CE31E004339BE /* StopwatchView.swift in Sources */,

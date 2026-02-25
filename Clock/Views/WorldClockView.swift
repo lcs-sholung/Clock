@@ -11,11 +11,10 @@ struct WorldClockView: View {
     var body: some View {
         NavigationStack {
             VStack{
-                ClockItem()
-                ClockItem()
-                ClockItem()
-                ClockItem()
-                ClockItem()
+                CityView(timeZoneOffset: "+0", city: "Ottawa", time: "6:35")
+                CityView(timeZoneOffset: "+3", city: "Vancouver", time: "3:35")
+                CityView(timeZoneOffset: "+6", city: "Hamburg", time: "12:35")
+                CityView(timeZoneOffset: "+16", city: "Sydney", time: "10:35")
             }
                 .navigationTitle("World Clock")
                 .toolbar {
@@ -41,21 +40,7 @@ struct WorldClockView: View {
         }
     }
 }
-struct ClockItem: View {
-    var body: some View {
-        HStack{
-            VStack{
-                Text("Today +0HRS")
-                Text("Ottawa")
-                    .font(.system(.largeTitle))
-            }
-            Spacer()
-            Text("6:35")
-                .font(.system(size: 62))
-        
-        }
-    }
-}
+
 #Preview {
     LandingView()
 }
